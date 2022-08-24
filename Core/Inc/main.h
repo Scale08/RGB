@@ -41,7 +41,8 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+extern  TIM_HandleTypeDef htim2;
+extern DMA_HandleTypeDef hdma_tim2_ch2_ch4;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
